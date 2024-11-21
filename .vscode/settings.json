@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "QUERIES",
+            "account": "mcodnhd-brb54338",
+            "username": "jreddy24",
+            "password": "Hotstar@1",
+            "database": "DEVELOPMENT",
+            "warehouse": "COMPUTE_WH"
+        }
+    ]
+}
